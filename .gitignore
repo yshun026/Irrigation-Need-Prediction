@@ -1,0 +1,21 @@
+# Local environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Kaggle data and generated artifacts
+*.csv
+*.7z
+test.txt
+results/
+catboost_info/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Keep repository source-focused
+!README.md
+!Irrigation_Need.ipynb
+!requirements.txt
